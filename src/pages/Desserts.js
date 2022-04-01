@@ -7,9 +7,16 @@ import fruits from '../assets/img/dessert5_fruits.jpg'
 import tartepomme from '../assets/img/dessert6_tarte-pomme.jpg'
 import tiramisu from '../assets/img/dessert7_tiramisu.jpeg'
 import truffes from '../assets/img/dessert8_truffes.jpg'
+import titre from '../components/Titre'
 
 export default function Desserts() {
 
+const tableaudesserts= [
+    {
+        title: 'Fôret noire', 
+        url: foretnoir
+    },
+]
     return(
         <>
         <figure>

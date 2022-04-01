@@ -1,8 +1,7 @@
 import React from 'react'
-import foretnoire from 'dessert1-fôret-noire.jpg'
-export default function Titre() {
+export default function Titre(props) {
     <div>
-        <h2>Fôret Noire</h2>
-        <img src= {foretnoire} alt= '#'></img>
+        <h2>{props.title}</h2>
+        <img className='desserts' src= {props.url} alt= {props.title}></img>
     </div>
 }
