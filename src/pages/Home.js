@@ -29,7 +29,7 @@ export default function Home() {
       title: "Nouilles Naruto",
       url: dish4,
       description:
-        "Nouilles inspirées par l'illustre anime Naruto/Naruto Shippuden",
+        "Nouilles inspirées de l'illustre anime Naruto/Naruto Shippuden",
     },
   ];
   const top_dish = data_dish.map((x) => {

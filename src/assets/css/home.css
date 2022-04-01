@@ -45,7 +45,8 @@
 }
 .top--section {
   position: relative;
-  padding: 2rem 0;
+  padding-bottom: 5rem;
+  padding-top: 1rem;
 }
 .top--section::before {
   content: "";
