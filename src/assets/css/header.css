@@ -1,7 +1,6 @@
 .header {
   color: white;
   /* background-color: rgba(17, 17, 17, 255); */
-  background: #fff url("../img/header-background.jpg") no-repeat right top;
   background-size: cover;
   height: 100px;
 }
