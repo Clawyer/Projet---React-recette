@@ -1,13 +1,12 @@
 .header {
   color: white;
-  background-size: cover;
   height: 100px;
   margin: 0 auto;
-  /* background-color: #f5f5f5; */
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0px 15px 10px -15px #111;
+  background-color: #3C393E;
 }
 
 .menu {
@@ -17,10 +16,14 @@
   list-style: none;
 }
 .menu a {
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
+}
+.menu a:hover {
+  color: #AF2127;
+  transition: 0.5s ease-in-out;
 }
 .nav {
   display: flex;

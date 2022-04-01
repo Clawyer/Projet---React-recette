@@ -37,8 +37,8 @@ export default function Home() {
   });
 
   return (
-    <section className="top_section">
-      <h1>Top 4 des recettes de la semaine ! </h1>
+    <section className="top--section">
+      <h2 className="top--title">Top 4 des recettes de la semaine ! </h2>
       <article className="top_dish">{top_dish}</article>
     </section>
   );
