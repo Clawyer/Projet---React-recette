@@ -1,5 +1,9 @@
 .header {
-    color: white;
+  color: white;
+  /* background-color: rgba(17, 17, 17, 255); */
+  background: #fff url("../img/header-background.jpg") no-repeat right top;
+  background-size: cover;
+  height: 100px;
 }
 
 .menu {
@@ -9,12 +13,11 @@
   list-style: none;
 }
 .menu a {
-    color: white;
-    text-transform: uppercase;
+  color: white;
+  text-transform: uppercase;
 }
 .nav {
   display: flex;
-  background-color: black;
   align-items: center;
   justify-content: space-between;
 }
