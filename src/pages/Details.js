@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import img1 from "../assets/img/plat1-blanquette-de-veau.jpg";
 import img2 from "../assets/img/plat2-choucroute.webp";
 import img3 from "../assets/img/plat3-ramen-naruto.jpg";
@@ -23,10 +23,138 @@ import fruits from "../assets/img/dessert5_fruits.jpg";
 import tartepomme from "../assets/img/dessert6_tarte-pomme.jpg";
 import tiramisu from "../assets/img/dessert7_tiramisu.jpeg";
 import truffes from "../assets/img/dessert8_truffes.jpg";
-export default function detail() {
-    const tableaudetails= [
 
-        title: "" ,
-        url: "" , 
-    ]
+export default function details() {
+    const tableaudetails = [
+      {
+        title: "Blanquette De Veau",
+        url: img1,
+      },
+
+      {
+        title: "Choucroute",
+        url: img2,
+      },
+
+      {
+        title: "Ramen-Naruto",
+        url: img3,
+      },
+
+      {
+        title: "Boeuf Bourguignon",
+        url: img4,
+      },
+
+      {
+        title: "Ribs",
+        url: img5,
+      },
+
+      {
+        title: "Curry",
+        url: img6,
+      },
+
+      {
+        title: "Carry",
+        url: img7,
+      },
+
+      {
+        title: "Sushi",
+        url: img8,
+      },
+
+      {
+        title: "Oeuf Mimoza",
+        url: img9,
+      },
+
+      {
+        title: "Saumon",
+        url: img10,
+      },
+
+      {
+        title: "Terrine Froide au Poulet",
+        url: img11,
+      },
+
+      {
+        title: "Verrine de Crevette et Saumon Fumé",
+        url: img12,
+      },
+
+      {
+        title: "Bouchée a la Reine",
+        url: img13,
+      },
+
+      {
+        title: "Rouleaux de Printemps",
+        url: img14,
+      },
+
+      {
+        title: "Samoussa",
+        url: img15,
+      },
+
+      {
+        title: "Nem",
+        url: img16,
+      },
+      {
+        title: "Fôret noire",
+        url: foretnoir,
+      },
+
+      {
+        title: "Fraisier",
+        url: fraisier,
+      },
+
+      {
+        title: "Fondant",
+        url: fondant,
+      },
+
+      {
+        title: "Mille Feuilles",
+        url: millefeuilles,
+      },
+
+      {
+        title: "Salade de Fruits",
+        url: fruits,
+      },
+
+      {
+        title: "Tarte au Pomme",
+        url: tartepomme,
+      },
+
+      {
+        title: "Tiramisu",
+        url: tiramisu,
+      },
+
+      {
+        title: "Truffes",
+        url: truffes,
+      },
+    ];
 }
+
+const detailsrecette = tableaudetails.map((description)) => {
+    return (
+    <Details key={description.details} {...description} />
+})
+
+    return ( 
+    <div className='details-container'>{detailsrecette}</div>
+    )
+
+
+
