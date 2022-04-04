@@ -1,0 +1,49 @@
+.details-img {
+    height: 30vh;
+    width: 18vw;
+    object-fit: cover;
+    border-radius: 10px;
+    position: absolute
+}
+
+.details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 5rem;
+}
+
+ol {
+    list-style: none;
+}
+
+.details-ingredients {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 24rem;
+    height: 100%;
+    margin-bottom: 2rem;
+}
+
+.details-preparation {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 24rem;
+}
+
+.details-p {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    margin-bottom: 5rem;
+}
+
+.details-title {
+    width: 100%;
+    margin-left: 24rem;
+    height: 100%;
+    margin-bottom: 2rem;
+}
