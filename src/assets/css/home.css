@@ -19,7 +19,6 @@
 .dish:hover h3 {
   text-decoration: underline;
   transition: 0.5s ease-in;
-
 }
 .dish--title {
   text-align: center;
