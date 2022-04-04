@@ -1,7 +1,7 @@
 import "../assets/css/home.css";
 import Dish from "../components/Dish";
-import dish1 from "../assets/img/dessert1-forêt-noire.jpg";
-import dish2 from "../assets/img/entrée1-oeuf-mimosa.jpg";
+import dish1 from "../assets/img/dessert1-fôret-noire.jpg";
+import dish2 from "../assets/img/entree1-oeuf-mimosa.jpg";
 import dish4 from "../assets/img/plat3-ramen-naruto.jpg";
 import dish3 from "../assets/img/plat6_curry.jpg";
 
