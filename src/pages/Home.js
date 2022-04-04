@@ -30,7 +30,7 @@ export default function Home() {
   const top_dish = data_dish.map((x) => {
     return (
       <Dish
-        onClick={() => this.filterProjects(cat.node.uid)}
+        // onClick={() => this.filterProjects(cat.node.uid)}
         key={x.title}
         {...x}
       />

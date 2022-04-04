@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Main from "./pages/Main";
 import Starters from "./pages/Starters";
 import Desserts from "./pages/Desserts";
+import Details from "./pages/Details";
 import "./App.css"
 import "./assets/css/header.css"
 
@@ -38,7 +39,7 @@ function App() {
           <Route path="starters/*" element={<Starters />} />
           <Route path="main_dish/*" element={<Main />} />
           <Route path="desserts/*" element={<Desserts />} />
-          {/* <Route path="/details/:id" element={<Details props.id={id} />} /> */}
+          <Route path="details/*" element={<Details />} />
         </Routes>
       </Router>
     </>
