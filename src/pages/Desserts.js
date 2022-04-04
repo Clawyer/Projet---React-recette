@@ -8,6 +8,7 @@ import tartepomme from "../assets/img/dessert6_tarte-pomme.jpg";
 import tiramisu from "../assets/img/dessert7_tiramisu.jpeg";
 import truffes from "../assets/img/dessert8_truffes.jpg";
 import Titre from "../components/Titre";
+import dessert from "../assets/css/desserts.css";
 
 export default function Desserts() {
   const tableaudesserts = [
@@ -54,5 +55,10 @@ export default function Desserts() {
   const imgdesserts = tableaudesserts.map((element) => {
     return <Titre key={element.title} {...element} />;
   });
-  return <>{imgdesserts}</>;
+  return (
+    <>
+      {imgdesserts}
+      {dessert}
+    </>
+  );
 }
