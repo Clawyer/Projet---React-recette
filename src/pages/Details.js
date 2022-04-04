@@ -152,6 +152,6 @@ export default function Details() {
 const detailsrecette = tableaudetails.map((description) => {
     return  <Propsdetails key={description.title} {...description} />;
 });
-    return <div className='details-container'>{detailsrecette}</div>;
+    return <div className='details-container'>{detailsrecette[0]}</div>;
 
 }

@@ -1,17 +1,23 @@
 .details-img {
-    height: 30vh;
-    width: 18vw;
+    height: 70vh;
+    width: 46vw;
     object-fit: cover;
     border-radius: 10px;
-    position: absolute
 }
 
 .details-container {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    gap: 2rem;
     margin: 5rem;
+
+}
+
+.details-container :first-child {
+    padding-bottom: 1rem;
+}
+
+.details-container :nth-child(2) {
+    padding-bottom: 1rem;
 }
 
 ol {
@@ -22,28 +28,29 @@ ol {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-left: 24rem;
-    height: 100%;
     margin-bottom: 2rem;
+    padding-left: 2rem;
 }
 
 .details-preparation {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-left: 24rem;
+    padding-left: 2rem;
 }
 
 .details-p {
     display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    margin-bottom: 5rem;
+
 }
 
 .details-title {
     width: 100%;
-    margin-left: 24rem;
-    height: 100%;
+    text-align: center;
     margin-bottom: 2rem;
+}
+
+.text-content {
+    display: flex;
+    flex-wrap: wrap;
 }
