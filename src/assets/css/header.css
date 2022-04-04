@@ -20,14 +20,14 @@
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
-<<<<<<< HEAD
 }
+
 .menu a:hover {
   color: #AF2127;
   transition: 0.5s ease-in-out;
-=======
->>>>>>> main_dish
+
 }
+
 .menu a:hover, .header--title:hover {
   color: #AF2127;
   transition: 0.5s ease-in-out;

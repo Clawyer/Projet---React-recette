@@ -1,0 +1,43 @@
+.desserts-img {
+  height: 30vh;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 0px 15px 10px -15px #111;
+  border-radius: 10px 10px 0 0;
+}
+
+.desserts-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding:2rem 10%;
+  background: url("../img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.desserts {
+  width: 20rem;
+  height: 45vh;
+  position: relative;
+  cursor: pointer;
+}
+.desserts:hover {
+  transform: translateY(-0.5em);
+  transition: 0.2s ease-in;
+}
+.desserts:hover .desserts-title {
+  text-decoration: underline;
+  transition: 0.3s ease-in;
+  color: #89282e;
+}
+.desserts-title {
+  background-color: #3c393e;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  transform: translateY(-0.7em);
+  border-radius: 0 0 10px 10px;
+}
