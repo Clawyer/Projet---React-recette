@@ -24,13 +24,10 @@ export default function Home() {
       url: dish4,
     },
   ];
-  function greetUser() {
-    console.log("Hi there, user!");
-  }
+
   const top_dish = data_dish.map((x) => {
     return (
       <Dish
-        // onClick={() => this.filterProjects(cat.node.uid)}
         key={x.title}
         {...x}
       />
@@ -40,7 +37,9 @@ export default function Home() {
   return (
     <section className="top--section">
       <h2 className="top--title">Top 4 des recettes de la semaine ! </h2>
-      <article className="top_dish">{top_dish}</article>
+      <article className="top_dish">
+        {top_dish}
+      </article>
     </section>
   );
 }
