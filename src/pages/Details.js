@@ -24,5 +24,9 @@ import tartepomme from "../assets/img/dessert6_tarte-pomme.jpg";
 import tiramisu from "../assets/img/dessert7_tiramisu.jpeg";
 import truffes from "../assets/img/dessert8_truffes.jpg";
 export default function detail() {
-    
+    const tableaudetails= [
+
+        title: "" ,
+        url: "" , 
+    ]
 }
