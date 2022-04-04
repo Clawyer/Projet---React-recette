@@ -1,0 +1,11 @@
+.main_dish {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 4rem;
+  padding-top: 4rem;
+  justify-content: center;
+  background: url("../img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
