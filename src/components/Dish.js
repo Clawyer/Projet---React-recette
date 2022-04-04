@@ -1,4 +1,5 @@
 import React from "react"
+import '../assets/css/dish.css'
 
 export default function Dish(props){
 return (
