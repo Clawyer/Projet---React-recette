@@ -24,8 +24,17 @@ export default function Home() {
       url: dish4,
     },
   ];
+  function greetUser() {
+    console.log("Hi there, user!");
+  }
   const top_dish = data_dish.map((x) => {
-    return <Dish key={x.title} {...x} />;
+    return (
+      <Dish
+        onClick={() => this.filterProjects(cat.node.uid)}
+        key={x.title}
+        {...x}
+      />
+    );
   });
 
   return (
