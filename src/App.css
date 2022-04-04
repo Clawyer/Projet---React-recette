@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 a {
     text-decoration: none;
@@ -9,4 +9,10 @@ a {
 
 body {
     box-sizing: border-box;
+}
+
+#root {
+    background: url('assets/img/background.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
 }
