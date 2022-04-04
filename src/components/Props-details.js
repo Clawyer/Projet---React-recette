@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Details (props) {
+export default function Propsdetail (props) {
     return (
       <article className="details-p">
         <h2>{props.title}</h2>
