@@ -15,3 +15,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.hide .rates {
+  display: none;
+}

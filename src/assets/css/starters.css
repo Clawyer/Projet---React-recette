@@ -1,7 +1,7 @@
 .starters {
   display: flex;
   flex-wrap: wrap;
-  padding: 4rem 3rem;
+  padding: 4rem 10%;
   gap: 3rem;
   justify-content: center;
   align-items: center;

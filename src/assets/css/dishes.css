@@ -8,23 +8,29 @@
 .dish:hover h3 {
   text-decoration: underline;
   transition: 0.3s ease-in;
-  color: #89282E;
+  color: #89282e;
 }
 .dish_img {
-  width: 18vw;
+  width: 300px;
   height: 30vh;
   object-fit: cover;
   box-shadow: 0px 15px 10px -15px #111;
   border-radius: 10px 10px 0 0;
 }
-
-.dish--title {
+.card--text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  gap: 1rem;
   background-color: #3c393e;
   color: white;
   font-size: 1rem;
   padding: 1rem 0;
   text-align: center;
-  text-transform: uppercase;
   transform: translateY(-0.7em);
-  border-radius: 0 0 10px 10px ;
+  border-radius: 0 0 10px 10px;
+}
+.card--text h3 {
+  font-weight: 400;
 }

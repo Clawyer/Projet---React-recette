@@ -1,11 +1,12 @@
 import React from "react";
 import "../assets/css/starters.css";
-import img from "../data/images";
 import Dish from "../components/Dish";
+import data_starters from "../data/data_recipe";
 
 export default function Starters(props) {
-  const images = img.images.map((x) => {
-    return <Dish key={x.title} {...x} />;
+  const starters = data_starters.starters.map((x) => {
+    return <Dish key={x.id} {...x} />;
   });
-  return <section className="starters">{images}</section>;
+
+  return <section className="starters hide">{starters}</section>;
 }
