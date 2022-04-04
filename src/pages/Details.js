@@ -17,7 +17,7 @@ import img15 from "../assets/img/entree7_samoussas.jpg";
 import img16 from "../assets/img/entree8_nem.jpg";
 import foretnoir from "../assets/img/dessert1-fôret-noire.jpg";
 import fraisier from "../assets/img/dessert2-fraisier.jpg";
-import fondant from "../assets/img/dessert3-gâteaux-fondant-au-chocolat.webp";
+import fondant from "../assets/img/dessert3-gâteaux-fondant au-chocolat.webp";
 import millefeuilles from "../assets/img/dessert4-mille-feuilles.jpg";
 import fruits from "../assets/img/dessert5_fruits.jpg";
 import tartepomme from "../assets/img/dessert6_tarte-pomme.jpg";
@@ -152,7 +152,5 @@ const detailsrecette = tableaudetails.map((description) => {
     return  <Propsdetails key={description.details} {...description} />;
 });
     return <div className='details-container'>{detailsrecette}</div>;
-    
+
 }
-
-
