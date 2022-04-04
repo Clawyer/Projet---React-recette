@@ -2,6 +2,10 @@
     display:flex;
     flex-wrap: wrap;
     gap: 2rem;
-    margin: 2rem;
+    padding: 2rem;
+    padding-top: 4rem;
     justify-content: center;
+    background: url('../img/background.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
 }
