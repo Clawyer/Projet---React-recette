@@ -30,7 +30,7 @@ export default {
             url:img4,
         },
         {
-            title:"Bouchées de reine",
+            title:"Bouchées à la reine",
             url:img5,
         },
         {
