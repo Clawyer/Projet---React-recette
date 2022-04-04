@@ -11,6 +11,9 @@ export default function Header() {
         <h1 className="header--title">JM - CUISINE </h1>
         <ul className="menu">
           <li>
+            <a href="#">Top dishes</a>
+          </li>
+          <li>
             <a href="#">Starters</a>
           </li>
           <li>
