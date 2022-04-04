@@ -10,25 +10,18 @@ export default function Home() {
     {
       title: "Fôret Noire",
       url: dish1,
-      description:
-        "La forêt-noire, en allemand Schwarzwälder Kirschtorte, littéralement « gâteau à la cerise de la Forêt-Noire », est une pâtisserie allemande constituée de génoise au cacao imbibée de kirsch puis fourrée de crème chantilly et de cerises. Elle est recouverte de crème chantilly et décorée de copeaux de chocolat.",
     },
     {
       title: "Oeufs Mimosa",
       url: dish2,
-      description:
-        "L'œuf mimosa est un œuf dur farci dont le blanc est rempli de mayonnaise ou d'un mélange à base de mayonnaise puis saupoudré de jaune cuit écrasé en petits grains évoquant la fleur de mimosa et d'herbes vertes, couramment du persil.",
     },
     {
       title: "Poulet Curry",
       url: dish3,
-      description:
-        "Un curry est un plat ayant son origine dans la gastronomie du sous-continent indien. Il se caractérise par une combinaison complexe d’épices et d’herbes comprenant en général des piments frais ou séchés. L’usage du terme « curry » pour désigner un plat est en général limité aux plats préparés dans une sauce.",
     },
     {
       title: "Nouilles Naruto",
       url: dish4,
-      description: "Nouilles apparues dans Naruto/Naruto Shippuden",
     },
   ];
   const top_dish = data_dish.map((x) => {
