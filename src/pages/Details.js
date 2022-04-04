@@ -24,6 +24,7 @@ import tartepomme from "../assets/img/dessert6_tarte-pomme.jpg";
 import tiramisu from "../assets/img/dessert7_tiramisu.jpeg";
 import truffes from "../assets/img/dessert8_truffes.jpg";
 import Propsdetails from "../components/Props-details"
+import "../assets/css/details.css"
 
 export default function Details() {
     const tableaudetails = [
@@ -149,8 +150,8 @@ export default function Details() {
 
 
 const detailsrecette = tableaudetails.map((description) => {
-    return  <Propsdetails key={description.details} {...description} />;
+    return  <Propsdetails key={description.title} {...description} />;
 });
-    return <div className='details-container'>{detailsrecette}</div>;
+    return <div className='details-container'>{detailsrecette[0]}</div>;
 
 }
