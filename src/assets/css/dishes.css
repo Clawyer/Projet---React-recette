@@ -1,0 +1,18 @@
+.dish {
+    cursor: pointer;
+}
+.dish--title {
+    color: white;
+}
+.dish_img {
+  width: 18vw;
+  height: 30vh;
+  object-fit: cover;
+  box-shadow: 0px 15px 10px -15px #111;
+  border-radius: 10px;
+}
+.dish--title {
+  padding: 1rem 0;
+  text-align: center;
+  text-transform: uppercase;
+}
