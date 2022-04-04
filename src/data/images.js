@@ -7,10 +7,6 @@ import img6 from "../assets/img/entree6_rouleaux.jpg";
 import img7 from "../assets/img/entree7_samoussas.jpg";
 import img8 from "../assets/img/entree8_nem.jpg";
 
-
-
-
-
 export default {
     images : [
         {

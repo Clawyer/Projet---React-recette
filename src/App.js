@@ -1,12 +1,10 @@
 import React from "react"
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
-// import Header from "./components/Header";
 import logo from "./assets/img/logo.png";
 import Home from "./pages/Home";
 import Main from "./pages/Main";
 import Starters from "./pages/Starters";
 import Desserts from "./pages/Desserts";
-// import Home from "./pages/Home";
 import "./App.css"
 import "./assets/css/header.css"
 

@@ -12,9 +12,7 @@
   flex-wrap: wrap;
   gap: 2rem;
   padding:4rem 10%;
-  background: url("../img/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+
 }
 .desserts {
   width: 20rem;

@@ -55,5 +55,5 @@ export default function Desserts() {
   const imgdesserts = tableaudesserts.map((element) => {
     return <Titre key={element.title} {...element} />;
   });
-  return <div className="desserts-container">{imgdesserts}</div>;
+  return <section className="desserts-container">{imgdesserts}</section>;
 }
