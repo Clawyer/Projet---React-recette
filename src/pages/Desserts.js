@@ -16,6 +16,41 @@ const tableaudesserts= [
         title: 'Fôret noire', 
         url: foretnoir
     },
+
+    {
+        title: 'Fraisier'
+        url: 
+    },
+
+    {
+        title: 'Fondant'
+        url: 
+    },
+
+    {
+        title: 'Mille Feuilles'
+        url: 
+    },
+
+    {
+        title: 'Salade de Fruits'
+        url: 
+    },
+
+    {
+        title: 'Tarte au Pomme'
+        url: 
+    },
+
+    {
+        title: 'Tiramisu'
+        url: 
+    },
+
+    {
+        title: 'Truffes'
+        url: 
+    },
 ]
     return(
         <>
