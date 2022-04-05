@@ -3,9 +3,11 @@ import React from "react";
 export default function Propsdetail(props) {
   return (
     <article className="details-p">
-      <img className="details-img" src={props.url} alt={props.title}></img>
+      <div className="container-img">
+        <img className="details-img" src={props.url} alt={props.title}></img>
+      </div>
       <div className="text-content">
-        <h2 className="details-title">{props.title}</h2>
+        <h2 className="details-title">Recette : {props.title}</h2>
         <div className="details-ingredients">
           <h5>Ingrédients</h5>
           <ol>
@@ -22,7 +24,6 @@ export default function Propsdetail(props) {
           <span className="fa fa-star"></span>
         </div>
         <span>3/5</span>
-
         <div className="details-preparation">
           <h5>Préparation</h5>
           <ol>

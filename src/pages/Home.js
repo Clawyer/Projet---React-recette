@@ -9,8 +9,10 @@ export default function Home() {
 
   return (
     <section className="top--section">
-      <h2 className="top--title">Top 4 des recettes de la semaine ! </h2>
-      <article className="top_dish">{top_dish}</article>
+      <article className="top_dish">
+        <h2 className="top--title">Top 4 des recettes de la semaine ! </h2>
+        {top_dish}
+      </article>
     </section>
   );
 }

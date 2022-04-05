@@ -7,10 +7,10 @@ import img5 from "../assets/img/plat5_ribs.jpg";
 import img6 from "../assets/img/plat6_curry.jpg";
 import img7 from "../assets/img/plat7_carry.jpeg";
 import img8 from "../assets/img/plat8_sushis.jpg";
-import img9 from "../assets/img/entrée1-oeuf-mimoza.jpg";
-import img10 from "../assets/img/entrée2-saumon-avec-aneth.webp";
-import img11 from "../assets/img/entrée3-terrine-froide-poulet.jpg";
-import img12 from "../assets/img/entrée4-verrine-de-crevettes-et-saumon-fume-.webp";
+import img9 from "../assets/img/entree1-oeuf-mimosa.jpg";
+import img10 from "../assets/img/entree2-saumon-avec-aneth.webp";
+import img11 from "../assets/img/entree3-terrine-froide-poulet.jpg";
+import img12 from "../assets/img/entree4-verrine-de-crevettes-et-saumon-fume-.webp";
 import img13 from "../assets/img/entree5_reine.jpg";
 import img14 from "../assets/img/entree6_rouleaux.jpg";
 import img15 from "../assets/img/entree7_samoussas.jpg";
@@ -101,7 +101,7 @@ export default {
 
     {
       id: 13,
-      title: "Bouchée a la Reine",
+      title: "Bouchée à la Reine",
       url: img13,
     },
 

@@ -13,5 +13,5 @@ export default function Details() {
       return <Propsdetails key={plats.id} {...plats} />;
     }
   });
-  return <div className="details-container">{detailsrecette}</div>;
+  return <main className="details-container">{detailsrecette}</main>;
 }
